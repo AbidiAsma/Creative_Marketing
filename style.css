@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(62, 62, 102);    
+}
+
+
+/*start header*/
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+
+}
+.header .logo{
+    float: left;
+    margin: 10px;
+}
+.header .logo img{
+    width: 150px;
+    height: 50px;
+}
+.header .nav-bar{
+    float: right;
+    margin: 10px;
+}
+.header .nav-bar a{
+    color: white;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.header .nav-bar a:hover{
+    border-bottom: 2px solid rgb(202, 190, 14);
+}
+.header .nav-bar .fa-solid{
+    background-color: rgb(202, 190, 14);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+/*end header*/
+/*start menu*/
+.menu{
+    width: 100%;
+    height:500px;
+    background-color: rgb(62, 62, 102);
+}
+.menu .subscribe{
+    float: left;
+    width: 40%;
+    height: 100%;
+    text-align: justify;
+}
+.menu .subscribe h1{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.menu .subscribe h1 span{
+    color:rgb(202, 190, 14);
+}
+.menu .subscribe p{
+    color: white;
+}
+.menu .subscribe input[type=text], select {
+    width: 50%;
+    padding: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.menu .subscribe button{
+    width: 50%;
+    background-color: rgb(202, 190, 14);
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.menu .subscribe button:hover{
+    background-color: white;
+}
+.menu .image{
+    float: left;
+}
+.menu .image img{
+    width: 600px;
+    height: 450px;
+}
+.menu .progress-bar{
+    margin-top: 19px;
+
+}
+/*end menu*/
